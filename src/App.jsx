@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Galery from './Galery';
+import Amenities from './Amenities';
 
 
 import './index.css';
@@ -30,6 +31,7 @@ const App = () => {
     { title: 'Dashboard', src: 'Chart_fill' },
     { title: 'About', src: 'about' },
     { title: 'Galery', src: 'galery'},
+    { title: 'Amenities', src: 'Amenities' },
  
 
   ];
@@ -157,7 +159,9 @@ const App = () => {
             
           ) :  selectedMenu === 'galery' ? (
             <Galery/>
-          ) :  null}
+          ) : selectedMenu === 'amenities' ? (
+            <Amenities />
+          ) :   null}
         </div>
       )}
     </div>
