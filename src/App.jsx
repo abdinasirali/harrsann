@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Galery from './Galery';
 import Amenities from './Amenities';
 import OpeningHours from './OpeningHours';
-
+import Mapp from './Mapp';
 import './index.css';
 
 
@@ -33,6 +33,7 @@ const App = () => {
     { title: 'Galery', src: 'galery'},
     { title: 'Amenities', src: 'Amenities' },
     { title: 'OpeningHours', src: 'hour1' },
+    { title: 'Mapp', src: 'map1' },
  
 
   ];
@@ -164,7 +165,9 @@ const App = () => {
             <Amenities />
           ) :  selectedMenu === 'openinghours' ? (
             <OpeningHours />
-          ) :   null}
+          ) :  selectedMenu === 'mapp' ? (
+            <Mapp />
+          ) :  null}
         </div>
       )}
     </div>
