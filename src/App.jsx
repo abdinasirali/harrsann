@@ -20,7 +20,7 @@ const App = () => {
   };
 
   const handleLogin = () => {
-    if (username === 'nasir' && password === '123') {
+    if (username === 'nasir' && password === '1234') {
       setIsLoggedIn(true);
     } else {
       alert('Invalid username or password');
@@ -144,7 +144,8 @@ const App = () => {
               <div className="p-4 border-l-4 border-green-500 bg-green-50 rounded">
                 <h2 className="text-3xl font-semibold text-gray-800 mb-2">Our Vision</h2>
                 <p className="text-gray-700 text-lg">
-                  Our vision is to be a leader in our industry, setting the standard for quality and innovation. We aim to create lasting value for our customers, employees, and stakeholders.
+                  Our vision is to be a leader in our industry , setting the standard for quality and innovation. We aim to create lasting value for our customers, employees, and stakeholders . 
+
                 </p>
               </div>
             </div>
