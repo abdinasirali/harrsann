@@ -3,6 +3,7 @@ import Galery from './Galery';
 import Amenities from './Amenities';
 import OpeningHours from './OpeningHours';
 import Mapp from './Mapp';
+import AddProduct from './AddProduct';
 import './index.css';
 
 
@@ -34,6 +35,7 @@ const App = () => {
     { title: 'Amenities', src: 'Amenities' },
     { title: 'OpeningHours', src: 'hour1' },
     { title: 'Mapp', src: 'map1' },
+    { title: 'AddProduct', src: 'add' },
  
 
   ];
@@ -168,7 +170,9 @@ const App = () => {
             <OpeningHours />
           ) :  selectedMenu === 'mapp' ? (
             <Mapp />
-          ) :  null}
+          ) :  selectedMenu === 'producttable' ? (
+            <ProductTable />
+          ) : null}
         </div>
       )}
     </div>
