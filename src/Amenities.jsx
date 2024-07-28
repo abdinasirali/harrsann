@@ -6,7 +6,7 @@ const amenitiesData = [
   { id: 3, image: '/src/assets/dahabplus.png', title: 'Dahab-Plus', description: 'This service is ready with us and you can send the money' },
   { id: 4, image: './src/assets/somnet.png', title: 'Jeeb', description: 'This service is ready with us and you can send the money' },
   { id: 5, image: './src/assets/somlink.jpg', title: 'E-bessa', description: 'This service is ready with us and you can send the money' },
-  { id: 6, image: './src/assets/waafi.png', title: 'Waafi', description: 'This service is ready with us and you can send the money' },
+  { id: 6, image: './harrsann/blob/master/src/assets/waafi.png', title: 'Waafi', description: 'This service is ready with us and you can send the money' },
 ];
 
 const Amenities = () => {
