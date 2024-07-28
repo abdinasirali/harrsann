@@ -1,7 +1,7 @@
 import React from 'react';
 
 const amenitiesData = [
-  { id: 1, image: './src/assets/somtel.png', title: 'E-Dahab', description: 'High-speed internet access available in all areas.' },
+  { id: 1, image: 'src/assets/somtel.png', title: 'E-Dahab', description: 'High-speed internet access available in all areas.' },
   { id: 2, image: './src/assets/hormuud.png', title: 'Evc', description: 'This service is ready with us and you can send the money' },
   { id: 3, image: '/src/assets/dahabplus.png', title: 'Dahab-Plus', description: 'This service is ready with us and you can send the money' },
   { id: 4, image: './src/assets/somnet.png', title: 'Jeeb', description: 'This service is ready with us and you can send the money' },
