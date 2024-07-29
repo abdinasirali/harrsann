@@ -10,7 +10,7 @@ const Gallery = () => {
         const mockData = [
           {
             id: 1,
-            url: 'https://i.ibb.co/X3FCG2D/atomic-habits.jpg',
+            url: 'https://i.ibb.co/QMGQ8d9/hawaale-waran.jpg',
             title: 'Image 1'
           },
           {
