@@ -1,4 +1,4 @@
-# sidebar_reactTailwind
+# Harsan Stationery
 hatsan stationery  react js tailwind css
 
 Vite + React + tailwind
