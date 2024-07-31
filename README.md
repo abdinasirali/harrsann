@@ -9,6 +9,8 @@ waxaana ku difaacanayaa  marks
 
 ## Loging
 ![Person Image](https://github.com/abdinasirali/harrsann/blob/master/READMEimages/login.JPG)
+## Loging PASSWORDS
+![Person Image](https://github.com/abdinasirali/harrsann/blob/master/READMEimages/PASSWORDS.JPG)
 ## DAHBOARD
 ![Person Image](https://github.com/abdinasirali/harrsann/blob/master/READMEimages/dashboardJPG.JPG)
 ## ABOUT
